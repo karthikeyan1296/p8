@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 import rsk2
+from rsk2 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('sample/',views.sample,name="sample"),
     path('rsk2/',include("rsk2.urls")),
 ]

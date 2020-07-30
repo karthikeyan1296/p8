@@ -7,6 +7,6 @@ urlpatterns = [
     path('home',views.home,name="home"),
     path('fact/<n>',views.fact,name="fact"),
     path('child',views.child,name="child"),
-    path('base',views.base,name="base")
+    path('base',views.base,name="base"),
    
 ]

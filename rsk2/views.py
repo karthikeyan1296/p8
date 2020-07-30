@@ -18,3 +18,6 @@ def child(request):
 
 def base(request):
     return render(request,"rsk2/base.html")
+
+def sample(request):
+    return render(request,"rsk2/sample.html")
